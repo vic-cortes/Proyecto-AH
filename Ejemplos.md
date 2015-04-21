@@ -19,8 +19,8 @@ Este te arrojará el directorio de trabajo, en mi caso el directorio es el sigui
 Existen dos maneras de cambiar el directorio de trabajo:   
 
 1. Esta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
-  + Ve a "File"  
-  + "Change Dir..."
+  + Ve a **File**  
+  + **Change Dir...**
   + Selecciona la carpeta en donde se encuentran tus archivos a analizar
 
 2. La segunda forma es un poco mas complicada, ya que tu especificas manualmente la direccion en donde se encuentran tus archivos. Esta manera es recomendada cuando ya tienes un *script* y lo puedes poner al inicio y automaticamente **R** sabra en donde estan tus datos.
