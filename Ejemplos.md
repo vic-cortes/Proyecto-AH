@@ -32,9 +32,9 @@ setwd("C:/Users/Vic/Documents/Tu_carpeta_de_datos")
 ````
 ## Cargar los datos
 
-Antes de poder realizar cualquier gráfica es necesario cargar los datos; en este ejemplo se cargaron los datos en formato **.csv**, no obstannte **R - Project** puede cargar los datos de una variedad de formatos tales como: *.txt*, *.xlsx*, *.json* por mencionar algunos.
+Antes de poder realizar cualquier gráfica es necesario cargar los datos; en este ejemplo se cargaron los datos en formato **.csv**, no obstannte **R - Project** puede cargar los datos de una variedad de formatos tales como: **.txt**, **.xlsx**, **.json** por mencionar algunos.
 
-Los [Datos] (https://www.dropbox.com/s/w5baas7f2b0wptm/Prueba_12_Abril_2015.csv?dl=0) de la prueba se pueden descargar de este link. Asegurate de guardarlos en la carpeta donde es ru directorio de trabajo.
+Los datos de la prueba se pueden descargar de este [link] (https://www.dropbox.com/s/w5baas7f2b0wptm/Prueba_12_Abril_2015.csv?dl=0). Asegurate de guardarlos en la carpeta donde es tu directorio de trabajo.
 
 El código en **R** se debe de ver de esta manera:
 
