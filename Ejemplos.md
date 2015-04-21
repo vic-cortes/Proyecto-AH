@@ -4,7 +4,7 @@ El objetivo de este ejemplo es de familiarizarse con el ambiente de **R - projec
 
 ## Directorio de trabajo
 
-El directorio de trabajo o *Work Directory* en **R - project** es en donde tu decides trabajar con los datos, es decir, la dirección de la **carpeta** donde se encuentran todos los archivos (datos). Por default el directorio de **R - Project** es en **Documentos**. Para verificar tu directorio de trabajo, escribe el siguiente comando en la **consola** de **R**:
+El directorio de trabajo o *Work Directory* en **R - project** es en donde tu decides trabajar con los datos, es decir, la dirección de la **carpeta** donde se encuentran todos los archivos (datos). Por default el directorio de **R - Project** es en **Documentos**. Para verificar el directorio de trabajo, escribe el comando en la **consola** de **R**:
 
 ````{r}
 getwd()
