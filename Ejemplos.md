@@ -39,3 +39,5 @@ El código en **R** se debe de ver de esta manera:
 ````{r}
 dat <- read.csv("Prueba_12_Abril_2015.csv", header =TRUE)
 ````
+
+Los [Datos] (https://www.dropbox.com/s/w5baas7f2b0wptm/Prueba_12_Abril_2015.csv?dl=0) de la prueba se pueden descargar de este link. Asegurate de guardarlos en la carpeta donde es ru directorio de trabajo.
