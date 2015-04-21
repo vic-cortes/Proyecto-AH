@@ -16,7 +16,7 @@ getwd()
 ````
 ### Cambio de directorio de trabajo
 
-Existen dos maneras de cambiar el directorio de trabajo:   
+Para poder usar tus datos es necesario cambiar el directorio (salvo que quieras guardar todos los archivos en el directorio que está por Default). Existen dos maneras de cambiar el directorio de trabajo:   
 
 1. Ésta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
   + Ve a **File**  
