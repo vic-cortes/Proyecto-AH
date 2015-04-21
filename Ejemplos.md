@@ -16,7 +16,8 @@ Este te arrojará el directorio de trabajo, en mi caso el directorio es el sigui
 ````
 ### Cambio de directorio de trabajo
 
-Existen dos maneras de cambiar el directorio de trabajo:
+Existen dos maneras de cambiar el directorio de trabajo:   
+
 1. Esta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
 +   Ve a "File"  
 +   "Change Dir..."
