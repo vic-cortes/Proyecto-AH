@@ -1,20 +1,34 @@
 #Introducción
 
-El objetivo de este ejemplo es de familiarizarse con el ambiente de **R - project** así como el de poder realizar gráficas con el paquete **lattice**. Al final de esta introducción sabrás realizar satisfactoriamente gráficas sofisticadas de una forma muy sencilla.
+El objetivo de este ejemplo es de familiarizarse con el ambiente de **R - project**, así como el de poder realizar gráficas con el paquete **lattice**. Al final de esta introducción sabrás realizar satisfactoriamente gráficas sofisticadas de una forma muy sencilla.
 
-## Directorio
+## Directorio de trabajo
 
-El directorio en **R - project** es en donde tu decides trabajar con los datos, es decir, la direccion de la **carpeta** donde se encuentran todos los archivos (datos). Por default el directorio de **R - Project** es en **Documentos** de tu computadora. Para poder verificar tu directorio de trabajo, escribe lo siguiente en la **consola** de **R**:
+El directorio de trabajo o *Work Directory* en **R - project** es en donde tu decides trabajar con los datos, es decir, la dirección de la **carpeta** donde se encuentran todos los archivos (datos). Por default el directorio de **R - Project** es en **Documentos**. Para verificar tu directorio de trabajo, escribe el siguiente comando en la **consola** de **R**:
 
 ````{r}
 getwd()
 ````
-Esta te arrojara tu directorio de trabajo, en mi caso mi directorio es el siguiente:
+Este te arrojará el directorio de trabajo, en mi caso el directorio es el siguiente:
 
 ````{r}
 [1] "C:/Users/Vic/Documents"
 ````
+### Cambio de directorio de trabajo
 
+Existen dos maneras de cambiar el directorio de trabajo:
+- Esta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
+1- Ve a "File"  
+2- "Change Dir..."
+3- Selecciona la carpeta en donde se encuentran tus archivos a analizar
+
+- La segunda forma es un poco mas complicada, ya que tu especificas manualmente la direccion en donde se encuentran tus archivos. Esta manera es recomendada cuando ya tienes un *script* y lo puedes poner al inicio y automaticamente **R** sabra en donde estan tus datos.
+
+Un ejemplo de especificacion manual del directorio en *R* se veria de esta manera:
+
+````{r}
+setwd("C:/Users/Vic/Documents/Tu_carpeta_de_datos")
+````
 ## Cargar los datos
 
 Antes de poder realizar cualquier gráfica es necesario cargar los datos; en este ejemplo se cargaron los datos en formato **.csv**, no obstannte **R - Project** puede cargar los datos de una variedad de formatos tales como: *.txt*, *.xlsx*, *.json* por mencionar algunos.
