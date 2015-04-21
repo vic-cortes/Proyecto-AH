@@ -9,7 +9,7 @@ El directorio de trabajo o *Work Directory* en **R - project** es en donde tu de
 ````{r}
 getwd()
 ````
-Este te arrojará el directorio de trabajo, en mi caso el directorio es el siguiente:
+Éste te arrojará el directorio de trabajo, en mi caso el directorio es el siguiente:
 
 ````{r}
 [1] "C:/Users/Vic/Documents"
@@ -18,14 +18,14 @@ Este te arrojará el directorio de trabajo, en mi caso el directorio es el sigui
 
 Existen dos maneras de cambiar el directorio de trabajo:   
 
-1. Esta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
+1. Ésta manera consiste en realizar el cambio directamente de la GUI de **R - Project**
   + Ve a **File**  
   + **Change Dir...**
   + Selecciona la carpeta en donde se encuentran tus archivos a analizar
 
-2. La segunda forma es un poco mas complicada, ya que tu especificas manualmente la direccion en donde se encuentran tus archivos. Esta manera es recomendada cuando ya tienes un *script* y lo puedes poner al inicio y automaticamente **R** sabra en donde estan tus datos.
+2. La segunda forma es un poco mas complicada, ya que tu especificas manualmente la dirección en donde se encuentran tus archivos. Esto es recomendado cuando ya se tiene un *script* y se indica al inicio del programa para que automaticamente **R** sepa en donde están los datos con los que se trabajará.
 
-  + Un ejemplo de especificacion manual del directorio en *R* se veria de esta manera:
+  + Un ejemplo de especificación manual del directorio en *R* se vería de esta manera:
 
 ````{r}
 setwd("C:/Users/Vic/Documents/Tu_carpeta_de_datos")
